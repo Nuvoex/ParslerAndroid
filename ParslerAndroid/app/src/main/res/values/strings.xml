@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parsler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sub_category">SubCategory</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login">Parsler Login</string>
+    <string name="action_settings">Logout</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="Login">Login:</string>
+    <string name="logo">Parsler</string>
+    <string name="arrow">arrow_icon</string>
+    <string name="edit_password">Enter Password</string>
+    <string name="btnLogin">Log In</string>
+    <string name="edit_message">Enter Username</string>
+    <string name="attempts">Attempts Left:</string>
+    <string name="item_detail">press</string>
+    <string name="tabs">Tab</string>
+    <string name="img_shipment">Shipment</string>
+    <string name="img_invoice">Invoice</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="acceptConfirmation">Are you sure you want to accept this shipment?</string>
+    <string name="rejectConfirmation">Are you sure you want to reject this shipment?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_activity_open_shipment_detail">OpenShipmentDetailActivity</string>
+
+</resources>
