@@ -32,7 +32,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="#DDDDDD"
-                    android:padding="13dip"
+                    android:padding="@dimen/table_box_padding"
                     android:text="Customer Name"
                     android:textColor="#000000"
                     android:textSize="16sp"
@@ -44,7 +44,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="#DDDDDD"
-                    android:padding="13dip"
+                    android:padding="@dimen/table_box_padding"
                     android:text="ABC"
                     android:textColor="#000000"
                     android:textSize="16sp"
@@ -62,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="#DDDDDD"
-                    android:padding="13dip"
+                    android:padding="@dimen/table_box_padding"
                     android:text="Item"
                     android:textColor="#000000"
                     android:textSize="16sp"
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="#DDDDDD"
-                    android:padding="13dip"
+                    android:padding="@dimen/table_box_padding"
                     android:text="Laptop"
                     android:textColor="#000000"
                     android:textSize="16sp"
@@ -92,7 +92,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="#DDDDDD"
-                    android:padding="13dip"
+                    android:padding="@dimen/table_box_padding"
                     android:text="Weight"
                     android:textColor="#000000"
                     android:textSize="16sp"
@@ -104,7 +104,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="#DDDDDD"
-                    android:padding="13dip"
+                    android:padding="@dimen/table_box_padding"
                     android:text="1kg"
                     android:textColor="#000000"
                     android:textSize="16sp"
@@ -112,13 +112,101 @@
             </TableRow>
         </TableLayout>
 
+        <TextView
+            android:id="@+id/description_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Package Description"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@id/detailTable"/>
+
+        <View
+            android:id="@+id/description_underline"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/description_label"/>
+
+        <TextView
+            android:id="@+id/description_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Acer laptop ACW65, black color with black bag and charger"
+            android:layout_margin="8dp"
+            android:textSize="12sp"
+            android:layout_below="@id/description_underline"/>
+
+        <TextView
+            android:id="@+id/pickup_address_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pickup Address"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@id/description_detail"/>
+
+        <View
+            android:id="@+id/pickup_underline"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/pickup_address_label"/>
+
+        <TextView
+            android:id="@+id/pick_address_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="House No. 288 Sector 10/A Gurgaon Haryana Near Huda Market, Hero Honda Chowk, Gurgaon"
+            android:layout_margin="8dp"
+            android:textSize="12sp"
+            android:layout_below="@id/pickup_underline"/>
+
+        <TextView
+            android:id="@+id/delivery_address_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delivery Address"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@id/pick_address_detail"/>
+
+        <View
+            android:id="@+id/delivery_underline"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@android:color/darker_gray"
+            android:layout_below="@id/delivery_address_label"/>
+
+        <TextView
+            android:id="@+id/delivery_address_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="House No. 288 Sector 10/A Gurgaon Haryana Near Huda Market, Hero Honda Chowk, Gurgaon"
+            android:layout_margin="8dp"
+            android:textSize="12sp"
+            android:layout_below="@id/delivery_underline"/>
+
         <Button
             android:id="@+id/open_order_map_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/detailTable"
+            android:layout_below="@+id/delivery_address_detail"
             android:layout_margin="8dp"
-            android:text="View On Map"/>
+            android:text="View On Map"
+            android:onClick="onMap"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -137,7 +225,7 @@
                 android:gravity="center"
                 android:textColor="#ffffff"
                 android:text="@string/accept"
-                android:onClick="accept" />
+                android:onClick="onAccept"/>
 
             <Button
                 android:id="@+id/reject"
@@ -149,7 +237,7 @@
                 android:background="@drawable/callreject_btn"
                 android:gravity="center"
                 android:text="@string/reject"
-                android:onClick="reject" />
+                android:onClick="onReject"/>
         </LinearLayout>
 
     </RelativeLayout>

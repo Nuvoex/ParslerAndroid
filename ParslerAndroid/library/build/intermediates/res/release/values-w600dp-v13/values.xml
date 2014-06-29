@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-w600dp/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-w600dp/values.xml -->
     <eat-comment />
 
     <dimen name="abc_action_bar_default_height">56dip</dimen>

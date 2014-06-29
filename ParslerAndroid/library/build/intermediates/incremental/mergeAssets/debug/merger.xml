@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/home/subodh/repos/ParslerAndroid/library/src/main/assets" />
+        <source path="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/home/subodh/repos/ParslerAndroid/library/src/debug/assets" />
+        <source path="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/debug/assets" />
     </dataSet>
 
 </merger>

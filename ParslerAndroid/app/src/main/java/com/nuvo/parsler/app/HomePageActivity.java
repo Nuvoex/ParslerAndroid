@@ -121,6 +121,27 @@ public class HomePageActivity extends ActionBarActivity {
             listAdapter = new CustomListAdapter(homeActivity);
             getShipments(BASE_URL + SHIPMENTS_URL, listAdapter, page);
             listView.setAdapter(listAdapter);
+            Intent detailViewIntent;
+            switch(page){
+                case 0:
+                    detailViewIntent = new Intent(homeActivity, OpenShipmentDetailActivity.class);
+                    break;
+                case 1:
+                    detailViewIntent = new Intent(homeActivity, OpenShipmentDetailActivity.class);
+                    break;
+                default:
+                    detailViewIntent = new Intent(homeActivity, OpenShipmentDetailActivity.class);
+                    break;
+            }
+            final Intent intent = detailViewIntent;
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    JsonObject item = (JsonObject) adapterView.getAdapter().getItem(i);
+                    intent.putExtra("shipment", item.toString());
+                    startActivity(intent);
+                }
+            });
             return rootView;
         }
 

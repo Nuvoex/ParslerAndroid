@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <attr name="actionBarDivider" format="reference" />
@@ -33,11 +33,11 @@
     <attr name="activityChooserViewStyle" format="reference" />
     <attr name="buttonBarButtonStyle" format="reference" />
     <attr name="buttonBarStyle" format="reference" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
     <eat-comment />
 
     <attr name="centered" format="boolean" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <attr name="dividerHorizontal" format="reference" />
@@ -64,20 +64,20 @@
     <attr name="searchViewTextFieldRight" format="reference" />
     <attr name="searchViewVoiceIcon" format="reference" />
     <attr name="selectableItemBackground" format="reference" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
     <eat-comment />
 
     <attr name="selectedColor" format="color" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <attr name="spinnerDropDownItemStyle" format="reference" />
     <attr name="spinnerStyle" format="reference" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
     <eat-comment />
 
     <attr name="strokeWidth" format="dimension" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <attr name="textAppearanceLargePopupMenu" format="reference" />
@@ -88,11 +88,11 @@
     <attr name="textAppearanceSmallPopupMenu" format="reference" />
     <attr name="textColorSearchUrl" format="reference|color" />
     <attr name="title" format="string" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
     <eat-comment />
 
     <attr name="unselectedColor" format="color" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
@@ -101,7 +101,7 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
     <bool name="abc_split_action_bar_is_narrow">true</bool>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__defaults.xml -->
     <eat-comment />
 
     <bool name="default_circle_indicator_centered">true</bool>
@@ -109,13 +109,13 @@
     <bool name="default_line_indicator_centered">true</bool>
     <bool name="default_title_indicator_selected_bold">true</bool>
     <bool name="default_underline_indicator_fades">true</bool>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__defaults.xml -->
     <eat-comment />
 
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
@@ -127,7 +127,7 @@
     <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
     <color name="default_title_indicator_text_color">#BBFFFFFF</color>
     <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__colors.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__colors.xml -->
     <eat-comment />
 
     <color name="vpi__background_holo_dark">#ff000000</color>
@@ -138,7 +138,7 @@
     <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
     <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
     <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="ActionBar">
@@ -266,7 +266,7 @@
         -->
         <attr name="expandActivityOverflowButtonDrawable" format="reference" />
     </declare-styleable>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="CirclePageIndicator">
@@ -290,7 +290,7 @@
         <!-- View background -->
         <attr name="android:background" />
     </declare-styleable>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="CompatTextView">
@@ -298,7 +298,7 @@
         <!-- Present the text in ALL CAPS. This may use a small-caps form when available. -->
         <attr name="textAllCaps" format="reference|boolean" />
     </declare-styleable>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="LinePageIndicator">
@@ -318,7 +318,7 @@
         <!-- View background -->
         <attr name="android:background" />
     </declare-styleable>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="LinearLayoutICS">
@@ -585,7 +585,7 @@
         <!-- Drawable used as a background for selected list items. -->
         <attr name="listChoiceBackgroundIndicator" format="reference" />
     </declare-styleable>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="TitlePageIndicator">
@@ -641,7 +641,7 @@
         <!-- View background -->
         <attr name="android:background" />
     </declare-styleable>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <declare-styleable name="View">
@@ -661,7 +661,7 @@
         -->
         <attr name="android:focusable" />
     </declare-styleable>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__attrs.xml -->
     <eat-comment />
 
     <declare-styleable name="ViewPagerIndicator">
@@ -679,7 +679,7 @@
         <!-- Style of the underline indicator. -->
         <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
     </declare-styleable>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <dimen name="abc_action_bar_default_height">48dip</dimen>
@@ -699,7 +699,7 @@
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dip</dimen>
     <dimen name="abc_search_view_text_min_width">160dip</dimen>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__defaults.xml -->
     <eat-comment />
 
     <dimen name="default_circle_indicator_radius">3dp</dimen>
@@ -715,7 +715,7 @@
     <dimen name="default_title_indicator_text_size">15dp</dimen>
     <dimen name="default_title_indicator_title_padding">5dp</dimen>
     <dimen name="default_title_indicator_top_padding">7dp</dimen>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
@@ -730,7 +730,7 @@
     <item name="progress_horizontal" type="id"/>
 
     <integer name="abc_max_action_buttons">2</integer>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__defaults.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__defaults.xml -->
     <eat-comment />
 
     <integer name="default_circle_indicator_orientation">0</integer>
@@ -738,7 +738,7 @@
     <integer name="default_title_indicator_line_position">0</integer>
     <integer name="default_underline_indicator_fade_delay">300</integer>
     <integer name="default_underline_indicator_fade_length">400</integer>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -875,14 +875,14 @@
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Large" />
 
     <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small" parent="TextAppearance.AppCompat.Base.Widget.PopupMenu.Small" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__styles.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__styles.xml -->
     <eat-comment />
 
     <style name="TextAppearance.TabPageIndicator" parent="Widget">
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/vpi__dark_theme</item>
     </style>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <style name="TextAppearance.Widget.AppCompat.Base.ExpandedMenu.Item" parent="android:TextAppearance.Medium">
@@ -1183,7 +1183,7 @@
     <style name="Theme.Base.AppCompat.Light.DialogWhenLarge" parent="Theme.Base.AppCompat.Light" />
 
     <style name="Theme.Base.Light" parent="android:Theme.Light" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__styles.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__styles.xml -->
     <eat-comment />
 
     <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
@@ -1192,7 +1192,7 @@
     </style>
 
     <style name="Widget"></style>
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values/values.xml -->
     <eat-comment />
 
     <style name="Widget.AppCompat.ActionBar" parent="Widget.AppCompat.Base.ActionBar" />
@@ -1486,7 +1486,7 @@
     <style name="Widget.AppCompat.ProgressBar.Horizontal" parent="Widget.AppCompat.Base.ProgressBar.Horizontal" />
 
     <style name="Widget.AppCompat.Spinner.DropDown.ActionBar" parent="Widget.AppCompat.Base.Spinner" />
-    <!-- From: file:/home/subodh/repos/ParslerAndroid/library/src/main/res/values/vpi__styles.xml -->
+    <!-- From: file:/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/library/src/main/res/values/vpi__styles.xml -->
     <eat-comment />
 
     <style name="Widget.IconPageIndicator" parent="Widget">

@@ -2,37 +2,37 @@
 <pre-dex-items>
 
     <item
-        dex="/home/subodh/repos/ParslerAndroid/app/build/intermediates/pre-dexed/debug/classes-6167579f1b7ff4e61b474a75b1824b45e8c624ce.jar"
-        jar="/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/ParslerAndroid/library/unspecified/classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="e8ece02ce8e01df86c99b2a0634654e682362003"/>
-    <item
-        dex="/home/subodh/repos/ParslerAndroid/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-a9ea18a6c44db8e893b09a1d616dd4ac4cf08317.jar"
+        dex="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-a9ea18a6c44db8e893b09a1d616dd4ac4cf08317.jar"
         jar="/home/subodh/Android Development/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
     <item
-        dex="/home/subodh/repos/ParslerAndroid/app/build/intermediates/pre-dexed/debug/ion-1.2.4-c219d4a839d1f318a41d8afe264cf3fb738220c9.jar"
+        dex="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/app/build/intermediates/pre-dexed/debug/ion-1.2.4-c219d4a839d1f318a41d8afe264cf3fb738220c9.jar"
         jar="/home/subodh/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/1.2.4/776baf5cac8eb4145dc0901254122cf956a784e3/ion-1.2.4.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="776baf5cac8eb4145dc0901254122cf956a784e3"/>
     <item
-        dex="/home/subodh/repos/ParslerAndroid/app/build/intermediates/pre-dexed/debug/androidasync-1.2.4-9052f384c4fc1a9436edec7822a5e7b48e9345bd.jar"
+        dex="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/app/build/intermediates/pre-dexed/debug/androidasync-1.2.4-9052f384c4fc1a9436edec7822a5e7b48e9345bd.jar"
         jar="/home/subodh/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/1.2.4/8dc7111050ee5f13a54b1206d47fee856159b2aa/androidasync-1.2.4.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="8dc7111050ee5f13a54b1206d47fee856159b2aa"/>
     <item
-        dex="/home/subodh/repos/ParslerAndroid/app/build/intermediates/pre-dexed/debug/classes-387b907d0372dd216f4d2df2313a7a2c4d969ea4.jar"
-        jar="/home/subodh/repos/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        dex="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/app/build/intermediates/pre-dexed/debug/classes-a596a7b044839710c15cac5dbabcbe6f1d42f6b5.jar"
+        jar="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/ParslerAndroid/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="93850635f16ab5c9f7743caaf88e7fc34fa8ba26"/>
+    <item
+        dex="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/app/build/intermediates/pre-dexed/debug/classes-762bf4951436d8bbf681589c73b79dfd0414c8c1.jar"
+        jar="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
     <item
-        dex="/home/subodh/repos/ParslerAndroid/app/build/intermediates/pre-dexed/debug/gson-2.2.4-6d685d223ba4def2cd64f89bcb0706d4bd3ffd5c.jar"
+        dex="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/app/build/intermediates/pre-dexed/debug/gson-2.2.4-6d685d223ba4def2cd64f89bcb0706d4bd3ffd5c.jar"
         jar="/home/subodh/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
         jumboMode="false"
         revision="19.1.0"
