@@ -10,13 +10,14 @@ import android.widget.TextView;
 
 import com.google.gson.JsonObject;
 import com.koushikdutta.ion.Ion;
+import com.nuvo.parsler.app.Classes.ParslerUrls;
 
 /**
  * Created by subodh on 27/6/14.
  */
 public class CustomListAdapter extends ArrayAdapter<JsonObject> {
     private Context context;
-    public static final String BASE_URL = HomePageActivity.BASE_URL;
+    public static final String BASE_URL = ParslerUrls.getBaseUrl();
     static String awb_number;
     static String current_status;
     static JsonObject current_item;

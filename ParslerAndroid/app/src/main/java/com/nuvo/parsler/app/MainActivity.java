@@ -12,6 +12,7 @@ import android.widget.ImageView;
 
 import com.koushikdutta.ion.Ion;
 import com.koushikdutta.ion.cookie.CookieMiddleware;
+import com.nuvo.parsler.app.Classes.ParslerUrls;
 
 import java.net.CookieManager;
 import java.net.CookieStore;
@@ -38,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
         progressDialog = new ProgressDialog(this);
         progressDialog.show();
         try{
-            server_uri = new URI(HomePageActivity.BASE_URL);
+            server_uri = new URI(ParslerUrls.getBaseUrl());
         }catch(URISyntaxException e){
             server_uri = URI.create("http://ship.parsler.com");
             Log.e(TAG, "Could not specify server uri in Main Activity. " +

@@ -16,7 +16,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.GridView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -24,6 +23,8 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
+import com.nuvo.parsler.app.Classes.ErrorMessages;
+import com.nuvo.parsler.app.Classes.ParslerUrls;
 import com.viewpagerindicator.TabPageIndicator;
 
 /**
@@ -32,10 +33,6 @@ import com.viewpagerindicator.TabPageIndicator;
 public class HomePageActivity extends ActionBarActivity {
 
     private static final String TAG = "HomePageActivity";
-    //    public static final String BASE_URL = "http://192.168.1.91:8000";
-    public static final String BASE_URL = "http://ship.parsler.com";
-    public static final String SHIPMENTS_URL = "/mobile/awb_list/";
-    public static final String MEDIA_URL = "/media/";
     public static final String [] Titles = {"My Shipments", "Open Orders"};
     public static int TABS;
     TabAdapter mAdapter;
@@ -119,12 +116,12 @@ public class HomePageActivity extends ActionBarActivity {
             rootView = inflater.inflate(R.layout.list_layout, container, false);
             final ListView listView = (ListView) rootView.findViewById(R.id.listview);
             listAdapter = new CustomListAdapter(homeActivity);
-            getShipments(BASE_URL + SHIPMENTS_URL, listAdapter, page);
+            getShipments(listAdapter, page);
             listView.setAdapter(listAdapter);
             Intent detailViewIntent;
             switch(page){
                 case 0:
-                    detailViewIntent = new Intent(homeActivity, OpenShipmentDetailActivity.class);
+                    detailViewIntent = new Intent(homeActivity, MyShipmentDetailActivity.class);
                     break;
                 case 1:
                     detailViewIntent = new Intent(homeActivity, OpenShipmentDetailActivity.class);
@@ -145,12 +142,17 @@ public class HomePageActivity extends ActionBarActivity {
             return rootView;
         }
 
-        private void getShipments(String url, final CustomListAdapter listAdapter, int page) {
+        private void getShipments(final CustomListAdapter listAdapter, int page) {
             final Context context = getActivity();
+            String url = "URL Not initialized";
             Log.d(TAG, "In TabFragment.getShipments");
             switch(page){
+                case 0:
+                    url = ParslerUrls.getShipmentsUrl(false);
+                    break;
                 case 1:
-                    url = url + "?awb_list_type=accepted";
+                    url = ParslerUrls.getShipmentsUrl(true);
+                    break;
             }
             Log.d(TAG, url);
             Ion.with(context)
@@ -234,6 +236,8 @@ public class HomePageActivity extends ActionBarActivity {
 
         private void redirect_to_login(){
             Log.d(TAG, "In redirect_to_login");
+            Intent login_activity = new Intent(getActivity(), LoginActivity.class);
+            startActivity(login_activity);
         }
 
         private void addNone(){

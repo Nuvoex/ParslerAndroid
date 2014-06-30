@@ -3,6 +3,9 @@
     package="com.nuvo.parsler.app" >
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera"  android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -32,7 +35,23 @@
             android:parentActivityName=".HomePageActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.nuvo.parsler.app.HomePageActivity" />
+                android:value="com.nuvo.parsler.app.HomePageActivity"/>
+        </activity>
+        <activity
+            android:name=".MyShipmentDetailActivity"
+            android:label="@string/title_activity_my_shipment_detail"
+            android:parentActivityName=".HomePageActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nuvo.parsler.app.HomePageActivity"/>
+        </activity>
+        <activity
+            android:name=".StatusUpdateActivity"
+            android:label="@string/title_activity_status_update"
+            android:parentActivityName=".MyShipmentDetailActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nuvo.parsler.app.MyShipmentDetailActivity" />
         </activity>
     </application>
 

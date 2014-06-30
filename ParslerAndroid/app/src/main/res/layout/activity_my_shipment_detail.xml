@@ -12,13 +12,126 @@
         android:scrollbarStyle="outsideOverlay" >
 
         <TableLayout
-            android:id="@+id/detailTable"
+            android:id="@+id/my_shipment_detailTable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="#ffffff"
             android:shrinkColumns="*"
             android:stretchColumns="*" >
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/name_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#DDDDDD"
+                    android:padding="@dimen/table_box_padding"
+                    android:text="Customer Name"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/customer_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#DDDDDD"
+                    android:padding="@dimen/table_box_padding"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/phone_1_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#DDDDDD"
+                    android:padding="@dimen/table_box_padding"
+                    android:text="Phone 1"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/phone_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#DDDDDD"
+                    android:padding="@dimen/table_box_padding"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/phone_2_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#DDDDDD"
+                    android:padding="@dimen/table_box_padding"
+                    android:text="Phone 2"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/phone_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#DDDDDD"
+                    android:padding="@dimen/table_box_padding"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/amount_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#DDDDDD"
+                    android:padding="@dimen/table_box_padding"
+                    android:text="Expected Amount"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/expected_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#DDDDDD"
+                    android:padding="@dimen/table_box_padding"
+                    android:textColor="#000000"
+                    android:textSize="16sp"/>
+            </TableRow>
 
 
             <TableRow
@@ -46,7 +159,7 @@
                     android:background="#DDDDDD"
                     android:padding="@dimen/table_box_padding"
                     android:textColor="#000000"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"/>
             </TableRow>
 
             <TableRow
@@ -67,7 +180,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/weightDetail"
+                    android:id="@+id/weight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -75,34 +188,6 @@
                     android:padding="@dimen/table_box_padding"
                     android:textColor="#000000"
                     android:textSize="16sp"/>
-            </TableRow>
-
-            <TableRow
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp" >
-
-                <TextView
-                    android:id="@+id/expected_amount_label"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="#DDDDDD"
-                    android:padding="@dimen/table_box_padding"
-                    android:text="Expected Amount"
-                    android:textColor="#000000"
-                    android:textSize="16sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/expected_amount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="#DDDDDD"
-                    android:padding="@dimen/table_box_padding"
-                    android:textColor="#000000"
-                    android:textSize="16sp" />
             </TableRow>
         </TableLayout>
 
@@ -115,7 +200,7 @@
             android:layout_marginRight="8dp"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:layout_below="@id/detailTable"/>
+            android:layout_below="@id/my_shipment_detailTable"/>
 
         <View
             android:id="@+id/description_underline"
@@ -191,45 +276,49 @@
             android:layout_below="@id/delivery_underline"/>
 
         <Button
-            android:id="@+id/open_order_map_button"
+            android:id="@+id/my_shipment_map_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/delivery_address_detail"
-            android:layout_margin="8dp"
+            android:layout_margin="5dp"
             android:text="View On Map"
-            android:onClick="onMap"/>
+            android:onClick="status_update"/>
 
-        <LinearLayout
+        <Button
+            android:id="@+id/pickup_completed_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/open_order_map_button"
-            android:layout_margin="8dp">
+            android:layout_below="@+id/my_shipment_map_button"
+            android:layout_margin="5dp"
+            android:text="Pickup Completed"
+            android:onClick="status_update"/>
 
-            <Button
-                android:id="@+id/accept"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/callaccept_btn"
-                android:layout_marginRight="5dp"
-                android:gravity="center"
-                android:textColor="#ffffff"
-                android:text="@string/accept"
-                android:onClick="onAccept"/>
+        <Button
+            android:id="@+id/deferred_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pickup_completed_button"
+            android:layout_margin="5dp"
+            android:text="Deferred By Customer"
+            android:onClick="status_update"/>
 
-            <Button
-                android:id="@+id/reject"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="#ffffff"
-                android:layout_marginLeft="5dp"
-                android:background="@drawable/callreject_btn"
-                android:gravity="center"
-                android:text="@string/reject"
-                android:onClick="onReject"/>
-        </LinearLayout>
+        <Button
+            android:id="@+id/cancelled_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/deferred_button"
+            android:layout_margin="5dp"
+            android:text="Cancelled"
+            android:onClick="status_update"/>
+
+        <Button
+            android:id="@+id/customer_not_available_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancelled_button"
+            android:layout_margin="5dp"
+            android:text="Customer Not Available"
+            android:onClick="status_update"/>
 
     </RelativeLayout>
 

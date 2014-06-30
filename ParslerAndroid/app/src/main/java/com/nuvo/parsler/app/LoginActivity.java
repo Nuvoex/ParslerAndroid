@@ -15,6 +15,8 @@ import android.widget.Toast;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
+import com.nuvo.parsler.app.Classes.ErrorMessages;
+import com.nuvo.parsler.app.Classes.ParslerUrls;
 
 
 public class LoginActivity extends ActionBarActivity {
@@ -58,7 +60,7 @@ public class LoginActivity extends ActionBarActivity {
             post_parameters.addProperty("username", username);
             post_parameters.addProperty("password", password);
             Ion.with(this)
-                    .load(HomePageActivity.BASE_URL + LOGIN_URL)
+                    .load(ParslerUrls.getLoginUrl())
                     .setBodyParameter("username", username)
                     .setBodyParameter("password", password)
                     .asJsonObject()
@@ -101,30 +103,35 @@ public class LoginActivity extends ActionBarActivity {
                                         progressDialog.hide();
                                         Toast.makeText(getApplicationContext(), ErrorMessages.Error_Invalid_User, Toast.LENGTH_LONG).show();
                                     }
+                                    break;
                                 }
                                 case RESPONSE_CODE_404:
                                 {
                                     Log.d(TAG, "In response code 404");
                                     progressDialog.hide();
                                     Toast.makeText(getApplicationContext(), ErrorMessages.Error_404, Toast.LENGTH_LONG).show();
+                                    break;
                                 }
                                 case RESPONSE_CODE_500:
                                 {
                                     Log.d(TAG, "In response code 500. Internal server error");
                                     progressDialog.hide();
                                     Toast.makeText(getApplicationContext(), ErrorMessages.Error_500, Toast.LENGTH_LONG).show();
+                                    break;
                                 }
                                 case RESPONSE_CODE_403:
                                 {
                                     Log.d(TAG, "In response code 403");
                                     progressDialog.hide();
                                     Toast.makeText(getApplicationContext(), response_message, Toast.LENGTH_LONG).show();
+                                    break;
                                 }
                                 case RESPONSE_CODE_ERROR:
                                 {
                                     Log.d(TAG, "In response code error");
                                     progressDialog.hide();
                                     Toast.makeText(getApplicationContext(), response_message, Toast.LENGTH_LONG).show();
+                                    break;
                                 }
                             }
                         }

@@ -33,5 +33,7 @@
     <string name="accept_dialog_title">Confirmation</string>
     <string name="accept_dialog_message">Are you sure you want to accept this shipment?</string>
     <string name="yes">Yes</string>
+    <string name="title_activity_my_shipment_detail">MyShipmentDetailActivity</string>
+    <string name="title_activity_status_update">StatusUpdateActivity</string>
 
 </resources>

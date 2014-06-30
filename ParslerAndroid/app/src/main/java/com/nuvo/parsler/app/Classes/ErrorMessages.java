@@ -1,4 +1,4 @@
-package com.nuvo.parsler.app;
+package com.nuvo.parsler.app.Classes;
 
 /**
  * Created by subodh on 28/6/14.
@@ -10,4 +10,5 @@ public class ErrorMessages {
     public static final String Error_Invalid_User = "Invalid username/password. Try again.";
     public static final String Login_Successful = "Login Successful";
     public static final String Error_Unexpected = "Unexpected error occurred. Please try again or restart";
+    public static final String Update_Successful = "Update Successfull";
 }

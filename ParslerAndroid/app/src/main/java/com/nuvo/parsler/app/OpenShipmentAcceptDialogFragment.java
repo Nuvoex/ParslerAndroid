@@ -15,12 +15,16 @@ import android.view.ViewGroup;
 
 public class OpenShipmentAcceptDialogFragment extends DialogFragment {
 
+    private static final String ACCEPT_MSG = "Are you sure you want to accept this shipment?";
+    private static final String REJECT_MSG = "Are you sure you want to reject this shipment?";
+
     /* The activity that creates an instance of this dialog fragment must
      * implement this interface in order to receive event callbacks.
      * Each method passes the DialogFragment in case the host needs to query it. */
     public interface OpenShipmentDialogListener {
-        public void onDialogPositiveClick(DialogFragment dialog);
+        public void onDialogAcceptClick(DialogFragment dialog);
         public void onDialogNegativeClick(DialogFragment dialog);
+        public void onDialogRejectClick(DialogFragment dialog);
     }
 
     // Use this instance of the interface to deliver action events
@@ -43,17 +47,32 @@ public class OpenShipmentAcceptDialogFragment extends DialogFragment {
 
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
+        Bundle args = getArguments();
+        String action = args.getString("action");
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle(R.string.accept_dialog_title)
-                .setMessage(R.string.accept_dialog_message)
-                .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int id) {
-                        // Send the positive button event back to the host activity
-                        mListener.onDialogPositiveClick(OpenShipmentAcceptDialogFragment.this);
-                    }
-                })
-                .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+        builder.setTitle(R.string.accept_dialog_title);
+        if (action.equals("accept")){
+            builder.setMessage(ACCEPT_MSG)
+                    .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int id) {
+                            // Send the positive button event back to the host activity
+                            mListener.onDialogAcceptClick(OpenShipmentAcceptDialogFragment.this);
+                        }
+                    });
+        }
+        else{
+            builder.setMessage(REJECT_MSG)
+                    .setPositiveButton(R.string.reject, new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int id) {
+                            // Send the positive button event back to the host activity
+                            mListener.onDialogRejectClick(OpenShipmentAcceptDialogFragment.this);
+                        }
+                    });
+        }
+
+        builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         mListener.onDialogNegativeClick(OpenShipmentAcceptDialogFragment.this);
                     }
