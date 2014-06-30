@@ -164,7 +164,8 @@ public class HomePageActivity extends ActionBarActivity {
                             Log.d(TAG, "In onCompleted");
                             pDialog.hide();
                             if (e != null) {
-                                Toast.makeText(context, "Error loading Shipments. Try Again", Toast.LENGTH_LONG).show();
+                                Log.e(TAG, e.toString());
+                                Toast.makeText(context, "Error loading shipments. Make sure you have internet connectivity", Toast.LENGTH_LONG).show();
                                 return;
                             }
                             else{

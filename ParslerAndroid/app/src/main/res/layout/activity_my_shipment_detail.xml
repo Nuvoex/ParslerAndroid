@@ -282,7 +282,7 @@
             android:layout_below="@+id/delivery_address_detail"
             android:layout_margin="5dp"
             android:text="View On Map"
-            android:onClick="status_update"/>
+            android:onClick="onMap"/>
 
         <Button
             android:id="@+id/pickup_completed_button"

@@ -4,8 +4,8 @@ package com.nuvo.parsler.app.Classes;
  * Created by subodh on 29/6/14.
  */
 public class ParslerUrls {
-//    private static final String BASE_URL = "http://ship.parsler.com";
-    public static final String BASE_URL = "http://192.168.1.91:8000";
+    private static final String BASE_URL = "http://ship.parsler.com";
+//    public static final String BASE_URL = "http://192.168.1.90:8000";
     private static final String SHIPMENTS_URL = "/awb_list/";
     private static final String MOBILE_URL = "/mobile";
     private static final String MEDIA_URL = "/media/";

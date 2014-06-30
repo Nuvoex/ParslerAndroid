@@ -13,6 +13,7 @@ import android.widget.TextView;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.nuvo.parsler.app.Classes.JsonHelper;
+import com.nuvo.parsler.app.Classes.MapActivity;
 import com.nuvo.parsler.app.Classes.UpdateStatusCodes;
 
 
@@ -131,5 +132,10 @@ public class MyShipmentDetailActivity extends ActionBarActivity {
     public void onDestroy() {
         super.onDestroy();
         Log.d(TAG, "onDestroy() called");
+    }
+
+    public void onMap(View view){
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
     }
 }

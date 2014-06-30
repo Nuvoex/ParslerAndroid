@@ -2,6 +2,12 @@
 <pre-dex-items>
 
     <item
+        dex="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/app/build/intermediates/pre-dexed/debug/classes-72fc7fd27e20251737fffc9a231043cb09995885.jar"
+        jar="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059"/>
+    <item
         dex="/home/subodh/repos/parsler_android/ParslerAndroid/ParslerAndroid/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-a9ea18a6c44db8e893b09a1d616dd4ac4cf08317.jar"
         jar="/home/subodh/Android Development/android-studio/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"

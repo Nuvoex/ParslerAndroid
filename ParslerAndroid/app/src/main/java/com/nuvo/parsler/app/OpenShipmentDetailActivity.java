@@ -17,6 +17,7 @@ import com.google.gson.Gson;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
 import com.nuvo.parsler.app.Classes.ErrorMessages;
+import com.nuvo.parsler.app.Classes.MapActivity;
 import com.nuvo.parsler.app.Classes.ParslerUrls;
 import com.nuvo.parsler.app.Classes.ResponseCodes;
 
@@ -107,7 +108,9 @@ public class OpenShipmentDetailActivity extends ActionBarActivity
     }
 
     public void onMap(View view){
-        Toast.makeText(this, "Coming soon ...", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "Coming soon ...", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
     }
 
     private String getValueOrNone(JsonObject jsonObject, String key){

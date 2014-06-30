@@ -70,6 +70,7 @@ public class LoginActivity extends ActionBarActivity {
                             if (result == null){
                                 progressDialog.hide();
                                 Log.d(TAG, "Response Json is null. Please check server response");
+                                Log.d(TAG, ParslerUrls.getLoginUrl());
                                 Toast.makeText(getApplicationContext(), "Response Json is null. Please check server response", Toast.LENGTH_LONG).show();
                                 return;
                             }
